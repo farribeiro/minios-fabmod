@@ -1,3 +1,4 @@
 #!/bin/bash
-chmod +x fabio.sh && scr2sb --script=./fabio.sh -l 10 -f 10-fabio.sb
+chmod +x fabio.sh && sudo scr2sb -f 10-fabio.sb -l 10 -s fabio.sh
+
 
